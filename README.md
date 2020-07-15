@@ -14,7 +14,7 @@ ansible_winrm_server_cert_validation=ignore
 ansible_become=false
 
 ### Windows Server Provisioning
-Windows Remote Management (WinRM) is already configured on the Windows Server 2012 node. It needs to be pre-configured by running the following PowerShell script on the Windows servers:
+Windows Remote Management (WinRM) needs to be  configured on the Windows Server 2012 node by running the following PowerShell script on the Windows servers:
 
 "<powershell>\n",
    
