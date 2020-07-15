@@ -4,7 +4,7 @@
 ### Inventory File
 e.g. 
 [windows]
-## These are the windows servers
+## This is the windows server
 ad1.${GUID}.internal ssh_host=${PUBLIC_ACCESSIBLE_HOSTNAME} ansible_password=${ADMINISTRATOR_PASWORD}
 
 [windows:vars]
